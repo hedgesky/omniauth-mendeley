@@ -4,7 +4,12 @@ This is the unofficial [OmniAuth 1.0](https://github.com/intridea/omniauth) stra
 To use it, you'll need to sign up at [Mendeley.com](http://mendeley.com), sign in with given credentials
 at [Mendeley Developers Page](http://dev.mendeley.com/) and then create an OAuth2 app.
 
-## Basic Usage
+## Usage
+
+```ruby
+# in Gemfile
+gem 'omniauth-mendeley_oauth2'
+```
 
 ```ruby
 use OmniAuth::Builder do
